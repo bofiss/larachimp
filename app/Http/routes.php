@@ -1,0 +1,4 @@
+<?php
+
+
+resource('users', 'UsersController');

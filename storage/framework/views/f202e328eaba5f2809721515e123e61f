@@ -1,0 +1,18 @@
+<!doctype>
+<html>
+   <head>
+       <title>Mailchimp integration</title>
+   </head>
+   <body>
+     <h1> Profile update</h1>
+     <?php echo Form::open(); ?>
+
+       <div>
+           Form::label('notify', 'Want email Notifications ?');
+           Form::checkbox('notify', null, null, ['id'=>'notify']);
+
+       </div>
+     <?php echo Form::close(); ?>
+
+   </body>
+</html>
